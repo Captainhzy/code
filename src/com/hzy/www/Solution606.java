@@ -10,7 +10,7 @@ public class Solution606 {
 
 	}
 
-	private static String tree2str(TreeNode t) {
+	private static String tree2str(TreeNode617 t) {
 		if (t == null)
 			return "";
 		String res = "" + t.val;

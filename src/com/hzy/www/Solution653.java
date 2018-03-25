@@ -13,7 +13,7 @@ public class Solution653 {
 		findTarget(null, 0);
 	}
 
-	private static boolean findTarget(TreeNode root, int k) {
+	private static boolean findTarget(TreeNode617 root, int k) {
 		List<Integer> list = new ArrayList<>();
 		recordInt(list, root);
 		int sum;
@@ -30,7 +30,7 @@ public class Solution653 {
 		return false;
 	}
 
-	private static void recordInt(List<Integer> list, TreeNode root) {
+	private static void recordInt(List<Integer> list, TreeNode617 root) {
 		if (root == null)
 			return;
 		recordInt(list, root.left);
